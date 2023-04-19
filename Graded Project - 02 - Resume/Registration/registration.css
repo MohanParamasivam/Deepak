@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray; /* color to be changed */
+}
+
+.form-container {
+  background-color: yellow;
+  box-sizing: border-box;
+  -webkit-box-shadow: 5px 5px 20px 7px rgba(0, 0, 0, 0.75); /* shadow to be changed */
+  -moz-box-shadow: 5px 5px 20px 7px rgba(0, 0, 0, 0.75); /* shadow to be changed */
+  box-shadow: 5px 5px 20px 7px rgba(0, 0, 0, 0.75); /* shadow to be changed */
+  width: 30%;
+  text-align: center;
+  padding: 60px 20px 10px 20px;
+  border-radius: 5px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-container input {
+  display: block;
+  padding: 5px;
+  margin: auto;
+  width: 50%;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.btn-container button {
+  width: fit-content;
+  background-color: green;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin-top: 20px;
+  padding: 5px 10px;
+  margin-bottom: 40px;
+}
+
+/* media query to be written */
